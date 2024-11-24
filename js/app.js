@@ -19,4 +19,14 @@ function alterarStatus(id){
     imagem.classList.add  ('dashboard__item__img--rented');
     btn.innerHTML = 'Devolver';
   }
+
+  contadorDeJogosAlugados();
+  }
+
+
+  // Contador de jogos alugados
+
+  function contadorDeJogosAlugados(){
+    const gamesAlugados = document.querySelectorAll('.dashboard__item__button--return').length;
+    console.log(`Foi alugado ${gamesAlugados} game`)
   }
