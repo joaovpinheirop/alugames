@@ -15,7 +15,7 @@ function alterarStatus(id){
   }
   else{
     btn.classList.add('dashboard__item__button--return');
-    imagem.classList.add('dashboard__item__img--rented');
+    imagem.classList.add  ('dashboard__item__img--rented');
     
     btn.innerHTML = 'Devolver';
   }
